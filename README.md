@@ -88,6 +88,14 @@ If `testssl.sh` is called separately, the JSON output file can be integrated sub
 website-evidence-collector -q --testssl-file example-testssl.json https://example.com
 ```
 
+## Update Block Lists
+
+The Block Lists can be updated to a current version using the following commands:
+```sh
+wget https://easylist.to/easylist/easyprivacy.txt -O assets/easyprivacy.txt
+wget https://secure.fanboy.co.nz/fanboy-annoyance.txt -O assets/fanboy-annoyance.txt
+```
+
 ## Frequently Asked Questions
 
 Please find a collection of frequently asked questions with answers in [FAQ.md](FAQ.md)
